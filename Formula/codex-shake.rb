@@ -4,12 +4,12 @@
 # Do not hand-edit: this file is overwritten by codex-fork-release CI on
 # every published eric/local-features release.
 #
-# Source release: local-features-v0.160.0-main-r20261004171227.00000000000028ef8cfa61758e64
-# Source commit (short): 00000000000028ef8cfa61758e64
+# Source release: local-features-v0.161.0-main-r20261010183755.0000000000002914458c2858f920
+# Source commit (short): 0000000000002914458c2858f920
 class CodexShake < Formula
   desc "Eric/local-features fork build of Codex CLI, as codex-shake"
   homepage "https://github.com/epsalmond/codex"
-  version "0.160.0.20261004171227"
+  version "0.161.0.20261010183755"
   license "Apache-2.0"
 
   livecheck do
@@ -18,8 +18,8 @@ class CodexShake < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/epsalmond/codex/releases/download/local-features-v0.160.0-main-r20261004171227.00000000000028ef8cfa61758e64/codex-aarch64-apple-darwin.tar.gz"
-      sha256 "de6e839837c5492bc8adc741afe2f03f6aa75777feccb2e924b349d1362dd6bf"
+      url "https://github.com/epsalmond/codex/releases/download/local-features-v0.161.0-main-r20261010183755.0000000000002914458c2858f920/codex-aarch64-apple-darwin.tar.gz"
+      sha256 "9d51a7b302400aa9523bce7f00420ef2d3888f850b067904c5bf02e31346c3d2"
     end
     on_intel do
       odie "codex-shake has no x86_64 macOS build"
@@ -28,8 +28,8 @@ class CodexShake < Formula
 
   on_linux do
     on_intel do
-      url "https://github.com/epsalmond/codex/releases/download/local-features-v0.160.0-main-r20261004171227.00000000000028ef8cfa61758e64/codex-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "326c07e513107d56160cca8514bc9b68737e2c84ce8507fc5c934b93bf26d6c6"
+      url "https://github.com/epsalmond/codex/releases/download/local-features-v0.161.0-main-r20261010183755.0000000000002914458c2858f920/codex-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "268359da6464d31faaf8dfae7db6fc6b20a4336e34bbdeaaf0df0827d3482a43"
     end
     on_arm do
       odie "codex-shake has no aarch64 Linux build"
