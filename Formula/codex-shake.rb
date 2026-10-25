@@ -4,12 +4,12 @@
 # Do not hand-edit: this file is overwritten by codex-fork-release CI on
 # every published main-branch release.
 #
-# Source release: local-features-v0.163.0-main-r20261025061926.00000000000029514f39ba3e322900000000000000c900000001
-# Source commit (short): 4f39ba3e3229
+# Source release: local-features-v0.163.0-main-r20261025211018.0000000000002952f4de69bc0c1500000000000000cb00000001
+# Source commit (short): f4de69bc0c15
 class CodexShake < Formula
   desc "Fork build of Codex CLI from epsalmond/codex, as codex-shake"
   homepage "https://github.com/epsalmond/codex"
-  version "0.163.0.20261025061926.10577.201.1"
+  version "0.163.0.20261025211018.10578.203.1"
   license "Apache-2.0"
 
   livecheck do
@@ -18,8 +18,8 @@ class CodexShake < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/epsalmond/codex/releases/download/local-features-v0.163.0-main-r20261025061926.00000000000029514f39ba3e322900000000000000c900000001/codex-aarch64-apple-darwin.tar.gz"
-      sha256 "bdd56b217f0b4ee615b750e85db3c0759fc393812a3831ecd7bbbf9b57470af4"
+      url "https://github.com/epsalmond/codex/releases/download/local-features-v0.163.0-main-r20261025211018.0000000000002952f4de69bc0c1500000000000000cb00000001/codex-aarch64-apple-darwin.tar.gz"
+      sha256 "8d14b4a1081c61aea79d67f264f231188ff7e2abfacc0faff484727e6e611748"
     end
     on_intel do
       odie "codex-shake has no x86_64 macOS build"
@@ -28,8 +28,8 @@ class CodexShake < Formula
 
   on_linux do
     on_intel do
-      url "https://github.com/epsalmond/codex/releases/download/local-features-v0.163.0-main-r20261025061926.00000000000029514f39ba3e322900000000000000c900000001/codex-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "6792dc0fada034f3a870e81561cf65ba7b105a527d4a20b7b55674a520f80f3a"
+      url "https://github.com/epsalmond/codex/releases/download/local-features-v0.163.0-main-r20261025211018.0000000000002952f4de69bc0c1500000000000000cb00000001/codex-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "d3054aefb1663d873e9c8de9b5fcc1559841e6d8714b806c83829f27e4786b43"
     end
     on_arm do
       odie "codex-shake has no aarch64 Linux build"
